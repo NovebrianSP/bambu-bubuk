@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bambu.Bubuk</title>
+  <link rel="stylesheet" href="./dist/output.css">
+  <link rel="stylesheet" href="dist/css/style.css">
+  <link rel="icon" type="image/jpeg" href="./dist/img/bambu-nonbg.png">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header class="bg-transparent text-white absolute -top-5 left-0 w-full flex items-center z-10">
+    <div class="container">
+      <div class="flex items-center justify-between relative">
+        <div class="px-4">
+          <span class="text-lg font-bold text-content block py-6"><img width="80" src="./dist/img/bambu-nonbg.png"
+              alt="Logo Bambu"></span>
+        </div>
+
+        <div class="flex items-center px-4">
+          <button id="ham" name="ham" type="button" class="absolute right-4 block lg:hidden">
+            <span class="ham-line origin-top-left transition duration-300 ease-in-out"></span>
+            <span class="ham-line transition duration-300 ease-in-out"></span>
+            <span class="ham-line origin-bottom-left transition duration-300 ease-in-out"></span>
+          </button>
+
+          <nav id="nav-menu"
+            class="absolute right-4 top-full hidden max-w-[250px] w-full rounded-lg bg-darkolivegreen shadow-lg lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none">
+            <ul class="block lg:flex">
+              <li class="group">
+                <a href="#beranda" class="mx-8 flex py-2 text-base text-dark hover:text-forestgreen">Beranda</a>
+              </li>
+              <li class="group">
+                <a href="#tentang" class="mx-8 flex py-2 text-base text-dark hover:text-forestgreen">Tentang Kami</a>
+              </li>
+              <li class="group">
+                <a href="#produk" class="mx-8 flex py-2 text-base text-dark hover:text-forestgreen">Produk Terlaris</a>
+              </li>
+              <li class="group">
+                <a href="#etalase" class="mx-8 flex py-2 text-base text-dark hover:text-forestgreen">Etalase</a>
+              </li>
+              <li class="group">
+                <a href="#kontak" class="mx-8 flex py-2 text-base text-dark hover:text-forestgreen">Pesan</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Navbar -->
+
+  <!-- Beranda -->
+  <section id="beranda" class="pt-36 pb-32 bg-cover bg-center text-white"
+    style="background-image: url('dist/img/beranda.png');">
+    <div class="container">
+      <div class="flex flex-wrap">
+        <div class="w-full self-center px-4 lg:w-1/2 sm:mb-10 lg:pl-96">
+          <h1 class="text-base font-bold md:text-6xl">#CariBumbu</h1>
+          <h4 class="text-base font-semibold text md:text-4xl">Bambu : Solusi Jitu Meningkatkan
+            Cita Rasa Bumbu Makanan Anda</h4>
+
+          <button class="bg-forestgreen rounded-full px-5 py-3 lg:ml-14 lg:mt-5 hover:animate-pulse"><a href="#tentang">Info
+              Selengkapnya</a></button>
+        </div>
+
+        <div class="w-full self-center px-4 lg:w-1/2 sm:mb-10 lg:pr-96">
+          <div class="bg-gray-200 w-96 h-96 rounded-md"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Beranda -->
+
+  <script src="dist/js/script.js"></script>
+</body>
+
+</html>
