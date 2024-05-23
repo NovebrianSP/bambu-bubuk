@@ -24,6 +24,14 @@ window.onscroll = function () {
   }
 };
 
+// Outside Ham
+window.addEventListener('click', function(e){
+  if(e.target !=ham && e.target != nav){
+      ham.classList.remove('ham-active');
+      nav.classList.add('hidden');
+  }
+})
+
 // Carousel
 document.addEventListener("DOMContentLoaded", function() {
   // Select elements
