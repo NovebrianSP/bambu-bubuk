@@ -1568,6 +1568,10 @@ body {
     background-color: transparent;
   }
 
+  .lg\:bg-top {
+    background-position: top;
+  }
+
   .lg\:py-20 {
     padding-top: 5rem;
     padding-bottom: 5rem;
