@@ -29,6 +29,7 @@ body {
 
 .carousel-item {
   display: none;
+  width: 300px;
 }
 
 .carousel-item.active {

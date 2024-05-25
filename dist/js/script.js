@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const nextButton = document.querySelector('#nextSlide');
 
   let currentSlide = 0;
-  const visibleSlides = 4; // Number of slides to show at once
+  const visibleSlides = 3; // Number of slides to show at once
   const totalItems = carouselItems.length;
 
   function moveToSlide(index) {
