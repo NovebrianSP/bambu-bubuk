@@ -744,6 +744,10 @@ video {
   width: 100%;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .max-w-\[250px\] {
   max-width: 250px;
 }
@@ -1153,6 +1157,10 @@ body {
     margin: 2.5rem;
   }
 
+  .lg\:m-2 {
+    margin: 0.5rem;
+  }
+
   .lg\:mx-10 {
     margin-left: 2.5rem;
     margin-right: 2.5rem;
@@ -1181,6 +1189,10 @@ body {
 
   .lg\:mt-5 {
     margin-top: 1.25rem;
+  }
+
+  .lg\:-mb-10 {
+    margin-bottom: -2.5rem;
   }
 
   .lg\:block {
