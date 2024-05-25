@@ -28,7 +28,6 @@ body {
 }
 
 .carousel-item {
-  min-width: 25%;
   display: none;
 }
 
