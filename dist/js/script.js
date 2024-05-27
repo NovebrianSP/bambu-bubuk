@@ -47,7 +47,14 @@ document.addEventListener("DOMContentLoaded", function() {
   function moveToSlide(index) {
     // Hide all slides
     carouselItems.forEach(item => item.classList.remove('active'));
-    // Show the slides within the visible window
+  
+    // Calculate offset based on the current slide and visible slides
+    const offset = index * -carouselItems[0].offsetWidth; // Adjust based on slide width
+  
+    // Set transform property for smooth animation
+    carousel.style.transform = `translateX(${offset}px)`;
+  
+    // Show the slides within the visible window (unchanged)
     for (let i = 0; i < visibleSlides; i++) {
       const slideIndex = (index + i) % totalItems;
       carouselItems[slideIndex].classList.add('active');
